@@ -5,6 +5,7 @@ import "../GlobalStyle/style.css";
 import Teams from "../Team/Teams";
 const About = () =>{
     return(
+      <>
     <div className={`font-sans relative py-8 px-16 border border-secondary w-[90%] mx-auto rounded rounded-lg mt-16`}
     style={{
       backgroundImage: `url(${backgroundImage})`,
@@ -36,6 +37,7 @@ const About = () =>{
       </div>
       <Teams />
     </div>
+    </>
     )
 }
 export default About;
