@@ -4,7 +4,7 @@ import blog1 from "../../assets/blog1.png";
 import profile from "../../assets/profile.png";
 import Footer from "../Footer/Footer";
 import "./BlogsPage.css";
-
+import { Link } from 'react-router-dom';
 
 const BlogsPage = () =>{
     useEffect(() => {
@@ -14,7 +14,7 @@ const BlogsPage = () =>{
     return(
         <div>
             <Navbar />
-            <div className=" mx-auto w-[80%] xsm:mt-[20%] sm:mt-[15%] md:mt-[7%] ">
+            <div className=" mx-auto w-[80%] xsm:mt-[20%] sm:mt-[15%] md:mt-[7%]">
                 <img src={blog1} alt="Integrating AI in QA for Enhanced Efficiency"/>
                 <div className="mt-[3%]">
                     <h1 className="text-3xl font-extrabold">The Future of QA Testing: Integrating AI for Enhanced Efficiency</h1>
@@ -67,7 +67,7 @@ const BlogsPage = () =>{
                     <br />
                     <div className="main">
                         <h2 className="text-xl font-bold">Can We Use AI in Automation Testing?</h2><br />
-                        <p  className="font-serif text-base font-normal leading-6 tracking-normal text-left">
+                        <p className="font-serif text-base font-normal leading-6 tracking-normal text-left">
                         Before digging into this content, we first have to know what is Automation testing?
                         Automation testing is a process of using software tools and scripts to perform testing tasks without human intervention. 
                         Nevertheless, Automation testing can save time, money, and resources, as well as increase test coverage and consistency. 
@@ -137,17 +137,26 @@ const BlogsPage = () =>{
                         AI affects software testing in various ways, such as: </p> <br />
                         <ol class="list-decimal pl-8">
                             <li class="mb-2">
-                                It changes the role and responsibility of QA testers and developers. QA testers and developers need to shift from manual and scripted testing to automated and intelligent testing, and from reactive and corrective testing to proactive and preventive testing. QA testers and developers also need to acquire new skills and knowledge, such as AI and machine learning, data science and analytics, and cloud and DevOps.
+                            The increasing complexity and diversity of software systems and applications
                             </li>
                             <li class="mb-2">
-                                It changes the tools and platforms for QA testing. QA testers and developers need to use new tools and platforms that use AI and machine learning for QA testing, such as Katalon Studio, Testim, Applitools, and mabl. These tools and platforms can provide various features and functions, such as test case and script generation, test execution and orchestration, test data and scenario creation, test analysis and reporting, and test maintenance and optimization.
+                            The dynamic and evolving nature of software requirements and user expectations
                             </li>
                             <li class="mb-2">
-                                It changes the metrics and standards for QA testing. QA testers and developers need to use new metrics and standards that measure and evaluate the quality and performance of the software and the testing process, such as defect detection rate, defect resolution rate, test coverage, test efficiency, test effectiveness, and test reliability. These metrics and standards can help to assess and improve the quality and value of the software and the testing process.
+                            The need for faster and more frequent software releases and updates
+                            </li>
+                            <li class="mb-2">
+                            The lack of sufficient and reliable test data and test cases
+                            </li>
+                            <li class="mb-2">
+                            The difficulty of ensuring the test coverage and quality of the software
                             </li>
                         </ol>
                         <p className="font-serif text-base font-normal leading-6 tracking-normal text-left">
-                        AI affects software testing in positive and negative ways. On the positive side, AI can improve the quality and efficiency of QA testing, and enable QA testers and developers to deliver better software products and services faster and more frequently. On the negative side, AI can introduce new challenges and risks for QA testing, such as ethical, legal, and social issues, data quality and security issues, and AI bias and reliability issues. QA testers and developers need to be aware and prepared for these challenges and risks and take appropriate measures and actions to address and mitigate them.
+                        To overcome these challenges, software testing needs to adopt new and innovative approaches and techniques. One of the most promising and impactful technologies that can transform software testing is artificial intelligence (AI).
+                        </p>
+                        <p className="font-serif text-base font-normal leading-6 tracking-normal text-left">
+                            AI is the branch of computer science that deals with creating machines and systems that can perform tasks that normally require human intelligence, such as learning, reasoning, problem-solving, decision-making, and natural language processing. AI can leverage various methods and algorithms, such as machine learning (ML), deep learning, neural networks, natural language processing (NLP), computer vision, and more, to achieve its goals.
                         </p>
                     </div>
                     <br />
@@ -185,6 +194,8 @@ As we stand on the cusp of this exciting future, one company stands at the foref
                     </div>
                     </div>
                 </div>
+                <br /> <br />
+                <Link to="/" ><button type="button" className="text-white bg-secondary hover:bg-secondary-800 focus:ring-4 focus:outline-none focus:ring-secondary-300 font-medium rounded-lg text-lg px-8 py-2 text-center dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800 hover:bg-primary hover:text-secondary transition-all duration-500">Return TO Home</button></Link>
             </div>
             <Footer />
         </div>

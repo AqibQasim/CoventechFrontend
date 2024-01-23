@@ -13,7 +13,7 @@ const data = [
         id : 1,
         icon : "Automation.json",
         title : "Test Automation",
-        text : "Elevate your software quality with our Test Automation and Manual QA services. Combining advanced tools like Selenium with meticulous manual testing."
+        text : "Elevate your software quality with our Test Automation and Manual QA services. Combining advanced tools like Selenium with meticulous manual testing, our QA automation engineers provide comprehensive coverage for reliable and efficient software performance."
     },
     {
         id : 2,

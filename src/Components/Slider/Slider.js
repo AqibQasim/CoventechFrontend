@@ -18,6 +18,10 @@ import portfolio5 from "../../assets/portfolio5.png";
 import portfolio6 from "../../assets/portfolio6.png";
 import portfolio7 from "../../assets/portfolio7.png";
 import portfolio8 from "../../assets/portfolio8.png";
+import portfolio9 from "../../assets/Measuring U.png";
+import portfolio10 from "../../assets/UpNest.png";
+import portfolio11 from "../../assets/technyx_logo.png";
+import portfolio12 from "../../assets/neosol_logo.png";
 
 const slider_data = [
   {
@@ -67,6 +71,30 @@ const slider_data = [
     title : "TELEMEDIC",
     description : "Telemedic's software quality was elevated by Coventech through comprehensive QA automation,API automation , and CI/CD pipeline implementation.",
     Image : portfolio8
+  },
+  {
+    id: 9,
+    title : "Measuring U",
+    description : "We conducted regular security audits and penetration tests for Measuring U, ensuring ongoing resilience against threats.",
+    Image : portfolio9
+  },
+  {
+    id: 10,
+    title : "UpNest",
+    description : "Utilizing Selenide, our automation services significantly improved UpNest's web operation efficiency and user experience.",
+    Image : portfolio10
+  },
+  {
+    id: 11,
+    title : "Technyx Systems",
+    description : "We delivered a comprehensive penetration test report for Technyx Systems on time, addressing critical system vulnerabilities.",
+    Image : portfolio11
+  },
+  {
+    id: 12,
+    title : "Neusole",
+    description : "Our high-quality, on-budget deliverables for Neusolme met expectations with timely documentation and adherence to timelines.",
+    Image : portfolio12
   },
 ]
 const Slider = () => {
@@ -131,6 +159,18 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <SliderContent title = {slider_data[7].title} description = {slider_data[7].description} image = {slider_data[7].Image} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SliderContent title = {slider_data[8].title} description = {slider_data[8].description} image = {slider_data[8].Image} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SliderContent title = {slider_data[9].title} description = {slider_data[9].description} image = {slider_data[9].Image} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SliderContent title = {slider_data[10].title} description = {slider_data[10].description} image = {slider_data[10].Image} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SliderContent title = {slider_data[11].title} description = {slider_data[11].description} image = {slider_data[11].Image} />
         </SwiperSlide>
       </Swiper>
     </div>

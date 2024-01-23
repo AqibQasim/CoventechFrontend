@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Helmet } from 'react-helmet';
 import 'typeface-roboto';
 import Hero from '../Hero/Hero';
@@ -19,6 +19,11 @@ import "./Home.css";
 import Nav from "../NavBar/Nav";
 
 const Home = () =>{
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
+  
     return(
     <div className="App para">
       <Helmet>

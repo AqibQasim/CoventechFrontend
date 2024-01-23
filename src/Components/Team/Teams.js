@@ -49,7 +49,7 @@ const data = [
     {
       id : 6,
       image : profile,
-      title : "Shaheer Ahmed Khan",
+      title : "Shaheer Ahmed",
       designation : "Test Automation Engineer"
   },
   {

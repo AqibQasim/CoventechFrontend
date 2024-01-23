@@ -35,7 +35,7 @@ const Map = () =>{
       
       {/* Left Section */}
       <div className="relative z-10 w-full md:w-1/2 sm:w-[1/1] lg:mb-16 md:mb-16 text-center md:text-left">
-      <img src={shade} className="absolute w-full h-full opacity-65" />
+      
   {/* <div
     className="bg-cover w-full h-full"
     style={{ backgroundImage: `url(${shade})`,
@@ -54,8 +54,6 @@ const Map = () =>{
     </Link>
   {/* </div> */}
 </div>
-
-
       <div className="relative z-10 w-full md:w-1/2 text-white hidden md:block">
       <Player
         autoplay
