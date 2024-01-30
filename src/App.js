@@ -9,6 +9,7 @@ import BlogsPage3 from './Components/BlogsPage/BlogsPage3';
 import BlogsPage4 from './Components/BlogsPage/BlogsPage4';
 
 function App() {
+	
   return (
     <div className="App font-sans">
     <Router>
