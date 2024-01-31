@@ -10,11 +10,10 @@ const Footer = () => {
     <footer className="border border-gray text-gray-500 py-16 pb-8 mt-16 xsm:text-center">
       <div className="container mx-auto flex flex-col md:flex-row justify-between pb-8">
         {/* Left Side */}
-        <div className="mb-4 md:mb-0 text-md font-normal leading-9 sm:w-[50%] lg:w-[30%] md:w-[40%]">
+        <div className="mb-4 md:mb-0 text-md font-normal leading-9 sm:w-[50%]  lg:w-[30%] md:w-[40%]">
           <a href='https://www.trustpilot.com/review/co-ventech.com' target='blank'>
           <img src={trustpilot} />
-          </a>
-          <div className="flex mb-1 text-center">
+          </a>          <div className="flex mb-1 text-center">
             <a href="https://www.linkedin.com/company/co-ventech/mycompany/" className="mr-4 text-secondary">LinkedIn</a>
             <span className="">|</span>
             <a href="https://twitter.com/C0VenTech" className="mx-2 text-secondary">X</a>

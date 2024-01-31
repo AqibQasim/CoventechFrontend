@@ -29,7 +29,7 @@ const Hero = () =>{
 
     {/* Content */}
     <div className="relative z-20 flex flex-col items-start">
-      <img src={design1} className="w-1/5 mt-8" />
+      <img src={design1} className="w-1/5" />
       <img src={logo2} className="w-3/5 ml-20" />
     </div>
   </div>
