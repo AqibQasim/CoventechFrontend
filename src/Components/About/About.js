@@ -1,5 +1,4 @@
 import React from "react";
-import Team from "../Team/Team";
 import backgroundImage from "../../assets/HeroDesign1.png";
 import "../GlobalStyle/style.css";
 import Teams from "../Team/Teams";

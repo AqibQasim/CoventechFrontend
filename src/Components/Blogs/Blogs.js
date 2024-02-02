@@ -28,7 +28,7 @@ const data = [
     {
         id : "NavigatingTheFuture",
         image : blog4,
-        title : "Navigating the Future: How to Excel as a QA Software Engineer in the World of Tech",
+        title : "Navigating the Future: How to Excel as a QA Engineer in the World of Tech",
         date : "Jan 10, 2022"
     },
 ]
@@ -36,7 +36,7 @@ const Blogs = () =>{
     return(
         <div className="">
         <div className="w-[90%] mx-auto mt-[5%]">
-            <Heading heading = "Featured Article"/>
+            <Heading heading = "Featured Articles"/>
             <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 mt-8">
                   {data.map(blog => <BlogsInner key = {blog.id} src = {blog.image} title = {blog.title} date = {blog.date} blog = {blog.id}/>  )}
             </div>

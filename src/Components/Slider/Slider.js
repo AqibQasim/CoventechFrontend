@@ -56,7 +56,7 @@ const slider_data = [
   },
   {
     id: 6,
-    title : "SeedsLab",
+    title : "Seed Labs",
     description : "Coventech's suite for SeedsLab included penetration, load testing, and API testing, bolstering their digital infrastructure and software reliability.",
     Image : portfolio6
   },

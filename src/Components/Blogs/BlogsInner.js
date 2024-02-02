@@ -6,7 +6,7 @@ const BlogsInner = (props) =>{
     return(
         <div className="col-span-1 row-span-1 flex items-center justify-center">
             <Link to={`/blogs/${props.blog}`}>
-            <div className="border hover:border-secondary romunded-lg py-8 px-4 w-full text-center h-96" >
+            <div className="border hover:border-secondary rounded-lg py-8 px-4 w-full text-center h-96" >
             <img src={props.src} className="w-full rounded-lg"/>
             <h2 className="text-md md:text-md lg:text-md font-bold mt-4 text-left">{props.title}</h2>
             <div className="flex rounded-lg mt-8">

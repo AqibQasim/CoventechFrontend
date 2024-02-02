@@ -5,7 +5,24 @@ import trustpilot from "../../assets/trustpilot.png"
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdOutlineEmail } from "react-icons/md";
 
+
+
 const Footer = () => {
+  useEffect(() => {
+    // Create a script element
+    const script = document.createElement('script');
+    script.src = 'https://www.glassdoor.com/static/js/api/widget/v1.js';
+    script.async = true;
+
+    // Append the script to the body of the document
+    document.body.appendChild(script);
+
+    // Cleanup: remove the script when the component is unmounted
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <footer className="border border-gray text-gray-500 py-16 pb-8 mt-16 xsm:text-center">
       <div className="container mx-auto flex flex-col md:flex-row justify-between pb-8">
@@ -13,7 +30,11 @@ const Footer = () => {
         <div className="mb-4 md:mb-0 text-md font-normal leading-9 sm:w-[50%]  lg:w-[30%] md:w-[40%]">
           <a href='https://www.trustpilot.com/review/co-ventech.com' target='blank'>
           <img src={trustpilot} />
-          </a>          <div className="flex mb-1 text-center">
+          </a>
+          <a className="gdWidget" href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-review&t.s=w-l&t.a=c&format=300x250&employerId=9082484" target="_gd">
+          <img alt="Find us on Glassdoor." src="https://www.glassdoor.com/pc-app/static/img/partnerCenter/badges/eng_BASIC_250x90.png" className='w-[30%] mt-4 mb-2'/>
+          </a>          
+          <div className="flex mb-1 text-center">
             <a href="https://www.linkedin.com/company/co-ventech/mycompany/" className="mr-4 text-secondary">LinkedIn</a>
             <span className="">|</span>
             <a href="https://twitter.com/C0VenTech" className="mx-2 text-secondary">X</a>
@@ -50,7 +71,7 @@ const Footer = () => {
         
       </div>
       <div className='text-center'>
-            <h5>© 2023 CoVenTech – Venture your technology dreams. All rights reserved.</h5>
+            <h5>© 2024 CoVenTech – Venture your technology dreams. All rights reserved.</h5>
         </div>
     </footer>
   );

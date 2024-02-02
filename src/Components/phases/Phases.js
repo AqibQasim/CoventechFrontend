@@ -18,7 +18,7 @@ const project_phases = [
     },
     {
         id : 4,
-        step : "QA"
+        step : "Quality"
     },
     {
         id : 5,
@@ -30,7 +30,7 @@ const project_phases = [
     },
     {
         id : 7,
-        step : "Deployment"
+        step : "CI/CD"
     },
     {
         id : 8,
