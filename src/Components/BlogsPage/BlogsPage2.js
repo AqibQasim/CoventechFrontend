@@ -4,7 +4,7 @@ import profile from "../../assets/profile.png";
 import Footer from "../Footer/Footer";
 import "./BlogsPage.css";
 import { Link } from 'react-router-dom';
-
+import Nav from "../NavBar/Nav";
 
 const BlogsPage2 = () =>{
     useEffect(() => {
@@ -13,7 +13,8 @@ const BlogsPage2 = () =>{
       }, []);
     return(
         <div>
-            <div className=" mx-auto w-[80%] xsm:mt-[10%] sm:mt-[5%] md:mt-[2%]">
+          <Nav />
+          <div className=" mx-auto w-[80%] xsm:mt-[12%] sm:mt-[10%] md:mt-[7%] ">
                 <img src={blog2} alt="Integrating AI in QA for Enhanced Efficiency"/>
                 <div className="mt-[3%]">
                     <h1 className="text-3xl font-extrabold">How AI Can Make Software Testing Faster, Easier, and Better</h1>

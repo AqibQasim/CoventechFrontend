@@ -8,7 +8,7 @@ import BlogsPage2 from './Components/BlogsPage/BlogsPage2';
 import BlogsPage3 from './Components/BlogsPage/BlogsPage3';
 import BlogsPage4 from './Components/BlogsPage/BlogsPage4';
 import NotFound from './Components/NotFound/NotFound';
-
+import Contact from "./Components/Contact/Contact";
 function App() {
 	
   return (
@@ -16,6 +16,7 @@ function App() {
     <Router>
 	  <Routes>
 		  <Route path='/' exact element={ <Home/> }/> 
+      <Route path="/get-quotes" component={ <Contact />} />
 		  <Route path="/blogs/FutureOfQAAutomationWithAI" element={ <BlogsPage /> }></Route>
       <Route path="/blogs/HowAICanMakeSoftwareTestingFaster" element={ <BlogsPage2 /> }></Route>
       <Route path="/blogs/EmbracingTheFullStackPath" element={ <BlogsPage3 /> }></Route>

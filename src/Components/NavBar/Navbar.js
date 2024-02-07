@@ -38,6 +38,7 @@ const Navbar = () => {
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
+            to="/get-quotes"
             smooth={true}
             duration={800}
             onClick={() => scrollToSection("Contact")}
