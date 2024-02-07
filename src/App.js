@@ -7,6 +7,7 @@ import 'typeface-roboto';
 import BlogsPage2 from './Components/BlogsPage/BlogsPage2';
 import BlogsPage3 from './Components/BlogsPage/BlogsPage3';
 import BlogsPage4 from './Components/BlogsPage/BlogsPage4';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
 	
@@ -19,6 +20,8 @@ function App() {
       <Route path="/blogs/HowAICanMakeSoftwareTestingFaster" element={ <BlogsPage2 /> }></Route>
       <Route path="/blogs/EmbracingTheFullStackPath" element={ <BlogsPage3 /> }></Route>
       <Route path="/blogs/NavigatingTheFuture" element={ <BlogsPage4 /> }></Route>
+      {/* Add the Not Found route with the wildcard (*) */}
+      <Route path="*" element={<NotFound /> } />
     </Routes>
     </Router>
     </div>
