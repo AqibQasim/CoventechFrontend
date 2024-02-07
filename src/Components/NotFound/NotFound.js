@@ -5,7 +5,7 @@ const NotFound = () =>{
     return(
         <main className="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]">
             <img src={logo} classNameName="h-8" alt="Coventech Logo" />
-          <span classNameName="self-center text-2xl font-semibold whitespace-nowrap text-white">
+          <span className="self-center text-2xl font-semibold text-white">
             Co-ventech
           </span>
 	<h1 className="text-9xl font-extrabold text-white tracking-widest">404</h1>
