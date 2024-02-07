@@ -27,7 +27,7 @@ const Home = () =>{
     return(
     <div className="App para">
       <Helmet>
-        <title>CoVentech: Software Developing and QA Automation Company</title>
+        <title>CoVentech: Software Development and QA Automation Services</title>
         <meta name="description" content="Discover expert solutions with CoVentech, a renowned company with over 20 years in the field. Our team of software development experts and QA automation engineers is ready to elevate your business. Curious about our impact? Let's explore how we can drive your success together." />
       </Helmet>
       <Navbar />
