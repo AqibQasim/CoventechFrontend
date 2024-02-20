@@ -46,9 +46,9 @@ const Map = () =>{
     <img src={design} className="w-24 mx-auto mt-8" />
     <h1 className="text-4xl font-bold mb-4">Our Worldwide Presence</h1>
     <p className="mb-8 text-base font-normal leading-7 para">
-    Our software development specialists and QA automation engineers, having worked across a variety of industries, consistently deliver innovative solutions tailored to meet the specific requirements of our esteemed clients.
+      Our software development specialists and QA automation engineers, having worked across a variety of industries, consistently deliver innovative solutions tailored to meet the specific requirements of our esteemed clients.
     </p>
-    <Link to="Services" smooth={true} duration={800} onClick={() => scrollToSection("Services")}><button className="bg-secondary text-white px-12 py-3 rounded-lg hover:bg-primary-700 font-semibold hover:bg-primary hover:text-secondary transition-all duration-500">
+    <Link to="Services" smooth={true} duration={800} onClick={() => scrollToSection("Services")}><button className="bg-secondary text-white px-12 xsm:px-4 py-3 rounded-lg hover:bg-primary-700 font-semibold hover:bg-primary hover:text-secondary transition-all duration-500">
       Explore Our Services
     </button>
     </Link>

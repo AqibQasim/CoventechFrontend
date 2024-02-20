@@ -115,7 +115,7 @@ const ContactUs = () => {
               className="mt-1 p-2 block w-full border-none rounded-md bg-gray-100 focus:ring-opacity-50"
             ></textarea>
           </div>
-          {!isSent && <button type="submit" className="text-white bg-secondary hover:bg-secondary-800 focus:ring-4 focus:outline-none focus:ring-secondary-300 font-medium rounded-lg text-lg px-4 py-2 text-center dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800 hover:bg-primary hover:text-secondary transition-all duration-500 mt-4">Send Message</button>}
+          {!isSent && <button type="submit" className="w-[100%] text-white bg-secondary hover:bg-secondary-800 focus:ring-4 focus:outline-none focus:ring-secondary-300 font-medium rounded-lg text-lg px-4 py-2 xsm:text-sm text-center dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800 hover:bg-primary hover:text-secondary transition-all duration-500 mt-4 ">Send Message</button>}
           {isSent && <p className='text-secondary'>Message Sent successfully! </p>}
         </div>
         </form>

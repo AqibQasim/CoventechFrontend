@@ -31,8 +31,8 @@ const Navbar = () => {
           duration={800}
           className="flex items-center space-x-3 rtl:space-x-reverse cursor-pointer"
         >
-          <img src={logo} className="h-8" alt="Coventech Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <img src={logo} className="h-8 xsm:h-4" alt="Coventech Logo" />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white xsm:text-xl">
             Co-ventech
           </span>
         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
           >
             <button
               type="button"
-              className="text-white bg-secondary hover:bg-secondary-800 focus:ring-4 focus:outline-none focus:ring-secondary-300 font-medium rounded-lg text-md px-8 py-2 text-center dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800 hover:bg-primary hover:text-secondary transition-all duration-500"
+              className=" text-white bg-secondary hover:bg-secondary-800 focus:ring-4 focus:outline-none focus:ring-secondary-300 font-medium rounded-lg xsm:text-sm text-md xxsm:text-sm px-8 py-2 xsm:px-4 xsm:py-1 xmd:px-6 xmd:py-2 xxsm:px-2 xxsm:py-1 xxsm:mt-2 xsm:mt-1 text-center dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800 hover:bg-primary hover:text-secondary transition-all duration-500"
             >
               Get Quotes
             </button>
@@ -82,8 +82,8 @@ const Navbar = () => {
           }`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li className="border-white px-4 py-1 rounded-md bg-primary">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-0 rounded-lg bg-gray-50 md:space-x-8 xmd:space-x-2 rtl:space-x-reverse md:flex-row md:mt-0  md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li className="border-white px-4 py-1 rounded-md bg-primary ">
               <Link
                 to="Overview"
                 smooth={true}
